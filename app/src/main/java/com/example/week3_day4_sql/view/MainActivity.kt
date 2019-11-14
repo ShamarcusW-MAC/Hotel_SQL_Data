@@ -65,9 +65,14 @@ class MainActivity : AppCompatActivity()  {
 
         })
         select_button.setOnClickListener { _->
-            var intent = Intent(this, GuestActivity::class.java)
-            intent.putExtra("Room", room)
-            startActivity(intent)
+            if(room != null) {
+                var intent = Intent(this, GuestActivity::class.java)
+                intent.putExtra("Room", room)
+                startActivity(intent)
+            }
+            else {
+                Toast.makeText(this, "Please choose a room first!", Toast.LENGTH_SHORT).show()
+            }
 
         }
 
