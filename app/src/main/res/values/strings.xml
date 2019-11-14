@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Week3_Day4_SQL</string>
+    <string name="hotel_room_1">https://www.telegraph.co.uk/content/dam/Travel/2016/September/aloft-santa-clara-room.jpg?imwidth=450</string>
+    <string name="hotel_room_2">https://www.hotel7dublin.com/wp-content/uploads/Double-Room-2-640x426.jpg</string>
+    <string name="hotel_room_3">https://secure.s.forbestravelguide.com/img/properties/galaxy-hotel/galaxy-hotel-galaxy-room.jpg</string>
+</resources>
