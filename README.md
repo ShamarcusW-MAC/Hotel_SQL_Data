@@ -1,4 +1,4 @@
-# Week3_Day4_SQL
+# Hotel_SQL_Data
 A three room hotel application
 First activity shows at least 3 rooms in a listview with and image view in the activity.
 When the user clicks a list item room, the image displayed corresponds to the room item selected.
